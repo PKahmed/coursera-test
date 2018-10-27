@@ -1,0 +1,154 @@
+body
+{
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+/* Header Starts Here */
+
+#header-nav
+{
+	border-radius: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus
+{
+	text-decoration: none;
+	
+}
+h1
+{	
+	text-shadow: 1px 1px ;
+	color: #3AB4D5;
+}
+
+.navbar-brand
+{	
+
+	width: 300px;
+	height: 100px;
+}
+
+.navbar-header button.navbar-toggle {
+/*  clear: both;*/
+ margin-top: 40px;
+  }
+
+.nav-list:hover
+{
+	background: red;
+}
+  .nav-list
+  {
+  	text-align: center;
+  	font-size: 1.2em;
+  	color:#5d3467;
+  }
+
+
+
+/* Header Ends here*/
+
+/* Main Contetnt */
+#main-heading
+{
+	font-size:2em;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+
+#chicken, #beef, #sushi
+{
+	color:white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 1.6em;
+	text-align: center;
+}
+
+.div1
+{
+	border: 2px solid black;
+	margin-bottom: 20px;
+	background-color: #433567;
+	color:white;
+}
+.div2
+{
+	border: 2px solid black;
+	margin-bottom: 20px;
+	background-color: #439567;
+	color:white;
+}
+.div3
+{
+	border: 2px solid black;
+	margin-bottom: 20px;
+	background-color: #431567;
+	color:white;
+}
+.div1 p, .div2 p, .div3 p
+{
+	text-align: justify;
+
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+}
+
+/********** Extra small devices only **********/
+@media /*(min-width: 365px) and*/ (max-width: 767px) {
+	  /* Header */
+	  #collapsable-nav
+  {
+  	background-color: #456789;
+    }
+
+    #collapsable-nav ul a
+    {
+    		color: black;
+
+    }
+
+    .container .row
+    {
+    	padding: 10px 15px 15px 10px;
+    }
+
+  /* End Header */
+  
+ 
+	}
+
+	@media (max-width: 365px) {
+	 
+h1
+{
+font-size: 1.6em;
+}
+  .navbar-brand
+  {
+  	width: 180px;
+
+  }
+}
